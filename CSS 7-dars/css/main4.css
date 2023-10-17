@@ -1,0 +1,11 @@
+.kok{
+    border: 1px solid black;
+    width: 330px;
+    height: 130px;
+    text-align: center;
+    padding-top: 58px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: black;
+    background: radial-gradient(green,white,blue);
+}

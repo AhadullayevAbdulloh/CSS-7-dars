@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+}
+.text-block{
+    width: 1200px;
+    height: 0;
+}
+.text-block-item{
+    margin-left: 100px;
+    margin-top: 300px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    animation-name: text-block-item;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes text-block-item{
+    0%{
+        transform: translate(0,-5px) rotate(0);
+    }
+    25%{
+        transform: translate(0,-75px);
+        background-color: greenyellow;
+    }
+    50%{
+        transform: translate(300px,0) rotate(360deg) ;
+        background-color: mediumvioletred;
+    }
+    75%{
+        transform: translate(500px,-100px);
+        background-color: skyblue;
+    }
+    100%{
+        transform: translate(600px,30px);
+        background-color: skyblue;
+    }
+}
